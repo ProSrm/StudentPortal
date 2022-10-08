@@ -1,0 +1,70 @@
+.profile {
+  padding: 7.7rem 2rem;
+}
+.section-centerProf {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+  padding: 2rem;
+  justify-content: center;
+}
+
+.sectionProf {
+  /* background: var(--clr-white); */
+  border-radius: var(--radius);
+  /* box-shadow: var(--light-shadow);
+  transition: var(--transition); */
+  padding: 1rem;
+  /* flex-direction: row-reverse;
+    justify-items: center;
+    align-items: flex-start; */
+}
+
+.logout {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .profile + .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.card button:hover,
+a:hover {
+  opacity: 0.7;
+} */

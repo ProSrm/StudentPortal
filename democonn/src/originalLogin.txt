@@ -1,0 +1,55 @@
+//original login page code 
+<div className="main">
+        <Form onSubmit={handleSubmit} className="section">
+          <p className="sign">Sign In</p>
+          <Form.Group size="lg" controlId="email" className="form1">
+            {/* <Form.Label className="un">Email</Form.Label> */}
+            <Form.Control
+              autoFocus
+              type="email"
+              value={email}
+              onChange={(event) => setEmail(event.target.value)}
+              className="unl"
+              placeholder="Username/Email"
+            />
+          </Form.Group>
+          <Form.Group size="lg" controlId="password" className="form1">
+            {/* <Form.Label className="pass">Password</Form.Label> */}
+            <Form.Control
+              type="password"
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+              className="pass"
+              placeholder="Password"
+            />
+          </Form.Group>
+          <Button
+            style={{
+              lineHeight: 1.3,
+              paddingLeft: "23px",
+              textAlign: "center",
+              marginBottom: "3px",
+            }}
+            className="submit"
+            block="true"
+            size="lg"
+            type="submit"
+            disabled={!validateForm()}
+          >
+            Login
+          </Button>
+          <Button
+            className="submit"
+            block="true"
+            size="lg"
+            type="submit"
+            // disabled={!validateForm()}
+            onClick={register_btn}
+          >
+            Signup
+          </Button>
+          {/* <Link to="/home">home</Link> */}
+        </Form>
+
+        <h4 style={{ textAlign: "center" }}>{loginStatus}</h4>
+      </div>

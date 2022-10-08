@@ -1,0 +1,117 @@
+:root {
+  --clr-white: #fff;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s linear;
+}
+
+.postContainer {
+  display: grid;
+  /* flex-direction: row; */
+  /* align-content: space-between; */
+  color: blueviolet;
+  margin-left: 35px;
+  /* margin-left: auto; */
+  margin: auto;
+  padding: 7.7rem 2rem;
+}
+
+.PostContainer input {
+  width: 300px;
+  height: 20px;
+}
+
+.showpost {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+  row-gap: 10px;
+  column-gap: 10px;
+
+  /* display: ;
+  /* flex-direction: column; */
+  background-color: #ffffff;
+  width: 400px;
+  height: 170px;
+  padding: 1rem 0;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  /* margin: 2em auto; */
+  margin: 15px;
+}
+
+/* .showpost div {
+  display: flex;
+  flex-direction: column;
+} */
+
+.showpostContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.post {
+  display: flex;
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+  padding: 2rem;
+}
+.post {
+  box-shadow: var(--dark-shadow);
+}
+
+.post button {
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--clr-black);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid var(--clr-black);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
+  margin-left: 38px;
+}
+.post button:hover {
+  background: rgba(69, 212, 183, 0.239);
+}
+
+.post aside {
+  padding: 1rem 2rem;
+  margin: 2em;
+}
+
+/* post container for adding posts  */
+.postContainer1 {
+  border-radius: var(--radius);
+  padding: 1rem;
+  padding-top: 40px;
+  padding: 7.7rem 2rem;
+}
+.unpost {
+  /* width: 76%; */
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(69, 212, 183, 0.239);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: "Ubuntu", sans-serif;
+}
